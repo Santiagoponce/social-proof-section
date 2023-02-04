@@ -276,10 +276,15 @@ main
     {
         flex: 1 1 50%;
     }
+
+    .ratings__item-wrapper
+    {
+        max-inline-size: 75%;
+    }
     .rating-card
     {
         flex-direction: row;
-        max-inline-size: 75%;
+        max-inline-size: 100%;
         gap:1rem;
         justify-content: center;
     }
@@ -290,11 +295,11 @@ main
     }
     .ratings li:nth-child(2)
     {
-        left: 2rem;
+        left: 4rem;
     }
     .ratings li:nth-child(3)
     {
-        left: 4rem;
+        left: 8rem;
     }
 
     
