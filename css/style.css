@@ -166,6 +166,7 @@ main
 .attribution
 {
     order: 10;
+
     max-inline-size: 75%;
     text-align: center;
     margin: 1rem;
