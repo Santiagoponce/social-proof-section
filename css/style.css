@@ -8,6 +8,11 @@
 --white: hsl(0, 0%, 100%);
 }
 
+*
+{
+    box-sizing: border-box;
+}
+
 a
 {
     text-decoration: none;
